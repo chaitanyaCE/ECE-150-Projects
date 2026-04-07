@@ -52,6 +52,7 @@ This repo serves as both a **learning portfolio** and a **reference** for key pr
 
 ## 🗂️ Project Structure
 ECE-150-Projects/
+```bash
 ├── Assignment 1/ # Grade Calculator (I/O, conditionals, weighted averages)
 ├── Assignment 2/ # Loops, Patterns, Bit Manipulation & Utility Functions
 ├── Assignment 3/ # Arrays, Pointers, Dynamic Memory & Math Functions
@@ -60,6 +61,7 @@ ECE-150-Projects/
 ├── Other Practice/ # Extra practice problems & lecture examples
 ├── Tut 11/ # Tutorial 11 files (header, implementation, solutions)
 └── README.md
+```
 
 
 ---
