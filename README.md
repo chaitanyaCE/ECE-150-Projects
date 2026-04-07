@@ -125,4 +125,154 @@ A comprehensive string manipulation library implementing custom versions of comm
 
 ---
 
-### Assignment 5 — Classes, Linked Lists &
+### Assignment 5 — Classes, Linked Lists & OOP 🏗️
+**File:** [`project_5.cpp`](./Assignment%205/project_5.cpp)
+
+An object-oriented programming assignment featuring:
+- **`Node` class** — a linked list node with `value` and `next` pointer, implementing:
+  - Constructor with value and next-node initialization
+  - `value()` getter method (const)
+  - `next()` getter method (const)
+  - Private member variables with encapsulation
+- **`Set` class** — a custom set data structure built on a linked list:
+  - Constructor using `std::initializer_list<int>` for easy initialization
+  - Overloaded `operator<<` as a friend function for stream output
+  - Set operations (union, intersection, difference) implemented via linked list traversal
+- Uses **friend classes** to allow `Set` access to `Node`'s private members
+- Demonstrates **RAII principles** and proper memory cleanup
+
+**Key Concepts:** Classes, constructors, linked lists, friend functions/classes, initializer lists, operator overloading, encapsulation, OOP principles
+
+---
+
+## 🛠️ Additional Practice
+
+The **`Other Practice/`** folder contains supplementary code for reinforcing concepts covered in lectures and assignments:
+
+| File | Description |
+|------|-------------|
+| `extra.cpp` | Extra practice problems covering core C++ fundamentals |
+| `finals.cpp` | Final exam preparation code — comprehensive review problems |
+| `lec_4.1.cpp` | Lecture 4.1 example code — hands-on practice from class |
+| `main.cpp` | General practice entry point for experimenting with concepts |
+
+These files provide additional opportunities to practice and solidify understanding of topics like loops, functions, arrays, pointers, and more.
+
+---
+
+## 📖 Tutorial Files
+
+The **`Tut 11/`** folder contains materials from **Tutorial Session 11**, focusing on advanced C++ topics:
+
+| File | Description |
+|------|-------------|
+| `tut_11.hpp` | Header file containing function declarations and type definitions |
+| `tut_11.cpp` | Implementation of tutorial functions |
+| `tut_11_solns.cpp` | Reference solution file with worked examples |
+| `main.cpp` | Driver/test program to exercise tutorial functions |
+
+Tutorial sessions complement lecture material with hands-on problem-solving and guided practice.
+
+---
+
+## ⚙️ How to Compile & Run
+
+All projects are written in **C++** and can be compiled using any standard C++ compiler. Below are instructions for common platforms:
+
+### Using g++ (Linux / macOS / WSL)
+
+```bash
+# Navigate to an assignment folder
+cd "Assignment 1"
+
+# Compile the project
+g++ project_1.cpp -o project_1 -std=c++14
+
+# Run the executable
+./project_1
+```
+
+### Using g++ (Windows with MinGW)
+
+```cmd
+cd "Assignment 1"
+g++ project_1.cpp -o project_1.exe -std=c++14
+project_1.exe
+```
+
+### Using Visual Studio (Windows)
+
+1. Create a new **Console Application** project
+2. Add the `.cpp` file to your project
+3. Set the C++ standard to **C++14** or later
+4. Build and run (Ctrl+F5)
+
+### Using CLion / Other IDEs
+
+1. Open the folder as a CMake project
+2. Select the desired `.cpp` file as the run target
+3. Build and run from the IDE
+
+> 💡 **Tip:** Pre-compiled `.exe` files are included for Windows users in most assignment folders for quick testing.
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| **C++** | Primary programming language (C++11/14 standard) |
+| **g++ / GCC** | Compiler for building executables |
+| **Visual Studio Code** | Code editor with C++ extensions |
+| **Git** | Version control |
+| **GitHub** | Code hosting and collaboration |
+
+---
+
+## 📚 Learning Progression
+
+The assignments in this repository follow a clear learning progression:
+
+Assignment 1 → Basic I/O, Conditionals, Loops, Input Validation
+↓
+Assignment 2 → Nested Loops, Patterns, Bitwise Operations, Assertions
+↓
+Assignment 3 → Arrays, Pointers, Dynamic Memory, Mathematical Functions
+↓
+Assignment 4 → C-Style Strings, Custom Algorithms, Sorting, Header Files
+↓
+Assignment 5 → Classes, Linked Lists, OOP, Operator Overloading
+
+
+Each assignment builds on the previous one, introducing new concepts while reinforcing earlier material.
+
+---
+
+## 📄 License
+
+This project is for **educational purposes only**. The code is provided as a learning resource and reference.
+
+- ✅ Feel free to study the code to understand C++ concepts
+- ✅ Use it as inspiration for your own projects
+- ❌ Do **not** submit this code as your own work in any academic setting
+- ❌ Do **not** distribute modified versions without attribution
+
+---
+
+## 🙏 Acknowledgments
+
+- **University of Waterloo** — For the excellent ECE 150 curriculum
+- **ECE 150 Instructors & TAs** — For their guidance and support throughout the term
+- **Course Materials** — Assignment specifications and tutorial problems provided by the course team
+
+---
+
+<div align="center">
+
+**Built with 💙 by [chaitanyaCE](https://github.com/chaitanyaCE)**
+
+*University of Waterloo | Computer Engineering*
+
+📧 Open to collaboration and feedback!
+
+</div>
